@@ -5,12 +5,24 @@
   <title>Bootstrap Theme Company Page</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">./linechart-stylesheet
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  
+  
+
+ 
+  
+
   <style>
+  #container {
+  min-width: 310px;
+  max-width: 800px;
+  height: 400px;
+  margin: 0 auto
+}
   body {
     font: 400 15px Lato, sans-serif;
     line-height: 1.8;
@@ -31,7 +43,7 @@
     margin-bottom: 30px;
   }  
   .jumbotron {
-    background-color: #f4511e;
+    background-color:  #7ec8f3;
     color: #fff;
     padding: 100px 25px;
     font-family: Montserrat, sans-serif;
@@ -43,11 +55,11 @@
     background-color: #f6f6f6;
   }
   .logo-small {
-    color: #f4511e;
+    color: #7ec8f3;
     font-size: 50px;
   }
   .logo {
-    color: #f4511e;
+    color: #7ec8f3;
     font-size: 200px;
   }
   .thumbnail {
@@ -62,13 +74,13 @@
   }
   .carousel-control.right, .carousel-control.left {
     background-image: none;
-    color: #f4511e;
+    color: #7ec8f3;
   }
   .carousel-indicators li {
-    border-color: #f4511e;
+    border-color:  #7ec8f3;
   }
   .carousel-indicators li.active {
-    background-color: #f4511e;
+    background-color: #7ec8f3;
   }
   .item h4 {
     font-size: 19px;
@@ -81,7 +93,7 @@
     font-style: normal;
   }
   .panel {
-    border: 1px solid #f4511e; 
+    border: 1px solid #7ec8f3; 
     border-radius:0 !important;
     transition: box-shadow 0.5s;
   }
@@ -89,13 +101,13 @@
     box-shadow: 5px 0px 40px rgba(0,0,0, .2);
   }
   .panel-footer .btn:hover {
-    border: 1px solid #f4511e;
+    border: 1px solid #7ec8f3;
     background-color: #fff !important;
-    color: #f4511e;
+    color: #7ec8f3;
   }
   .panel-heading {
     color: #fff !important;
-    background-color: #f4511e !important;
+    background-color: #7ec8f3 !important;
     padding: 25px;
     border-bottom: 1px solid transparent;
     border-top-left-radius: 0px;
@@ -115,12 +127,12 @@
   }
   .panel-footer .btn {
     margin: 15px 0;
-    background-color: #f4511e;
+    background-color: #7ec8f3;
     color: #fff;
   }
   .navbar {
     margin-bottom: 0;
-    background-color: #f4511e;
+    background-color: #7ec8f3;
     z-index: 9999;
     border: 0;
     font-size: 12px !important;
@@ -133,7 +145,7 @@
     color: #fff !important;
   }
   .navbar-nav li a:hover, .navbar-nav li.active a {
-    color: #f4511e !important;
+    color: #7ec8f3 !important;
     background-color: #fff !important;
   }
   .navbar-default .navbar-toggle {
@@ -143,7 +155,7 @@
   footer .glyphicon {
     font-size: 20px;
     margin-bottom: 20px;
-    color: #f4511e;
+    color: #7ec8f3;
   }
   .slideanim {visibility:hidden;}
   .slide {
@@ -190,7 +202,12 @@
   }
   </style>
 </head>
+
+
+
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+  <!--首页条目--浏览器-->
 
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container">
@@ -200,35 +217,28 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#myPage">Logo</a>
+      <a class="navbar-brand" href="#myPage">Home</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#about">ABOUT</a></li>
-        <li><a href="#services">SERVICES</a></li>
-        <li><a href="#portfolio">PORTFOLIO</a></li>
-        <li><a href="#pricing">PRICING</a></li>
-        <li><a href="#contact">CONTACT</a></li>
+        <li><a href="#Partie1">Partie1</a></li>
+        <li><a href="#Partie2">Partie2</a></li>
+        <li><a href="#Partie3">Partie3</a></li>
+        <li><a href="#Partie4">Partie4</a></li>
+        <li><a href="#Partie5">Partie5</a></li>
       </ul>
     </div>
   </div>
 </nav>
 
+<!--首页第一页-->
 <div class="jumbotron text-center">
-  <h1>Company</h1> 
-  <p>We specialize in blablabla</p> 
-  <form>
-    <div class="input-group">
-      <input type="email" class="form-control" size="50" placeholder="Email Address" required>
-      <div class="input-group-btn">
-        <button type="button" class="btn btn-danger">Subscribe</button>
-      </div>
-    </div>
-  </form>
+  <h1>Depense Public </h1> 
+  <p> blablablablablablablablabla</p> 
 </div>
 
 <!-- Container (About Section) -->
-<div id="about" class="container-fluid">
+<div id="Partie1" class="container-fluid">
   <div class="row">
     <div class="col-sm-8">
       <h2>About Company Page</h2><br>
@@ -242,6 +252,8 @@
   </div>
 </div>
 
+
+
 <div class="container-fluid bg-grey">
   <div class="row">
     <div class="col-sm-4">
@@ -253,11 +265,14 @@
       <p><strong>VISION:</strong> Our vision Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     </div>
+    <!-- comparaison de revenu et depense -->
+    <iframe title="[ Paris&amp;nbsp; ]" aria-label="Column Chart" src="https://datawrapper.dwcdn.net/7c1IR/1/" scrolling="no" frameborder="0" width="600" height="400"></iframe>
+
   </div>
 </div>
 
 <!-- Container (Services Section) -->
-<div id="services" class="container-fluid text-center">
+<div id="Partie2" class="container-fluid text-center">
   <h2>SERVICES</h2>
   <h4>What we offer</h4>
   <br>
@@ -290,16 +305,26 @@
       <h4>CERTIFIED</h4>
       <p>Lorem ipsum dolor sit amet..</p>
     </div>
+
     <div class="col-sm-4">
       <span class="glyphicon glyphicon-wrench logo-small"></span>
       <h4 style="color:#303030;">HARD WORK</h4>
       <p>Lorem ipsum dolor sit amet..</p>
     </div>
+    <!-- 动态图的位置 -->
+    <div id="container"></div>
+    <iframe title="[ Paris&amp;nbsp; ]" aria-label="Column Chart" src="https://datawrapper.dwcdn.net/QAeJk/1/" scrolling="no" frameborder="0" width="600" height="400"></iframe>
+
   </div>
 </div>
 
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/series-label.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<script src="https://code.highcharts.com/modules/export-data.js"></script>
+
 <!-- Container (Portfolio Section) -->
-<div id="portfolio" class="container-fluid text-center bg-grey">
+<div id="Partie3" class="container-fluid text-center bg-grey">
   <h2>Portfolio</h2><br>
   <h4>What we have created</h4>
   <div class="row text-center slideanim">
@@ -360,8 +385,9 @@
   </div>
 </div>
 
+
 <!-- Container (Pricing Section) -->
-<div id="pricing" class="container-fluid">
+<div id="Partie4" class="container-fluid">
   <div class="text-center">
     <h2>Pricing</h2>
     <h4>Choose a payment plan that works for you</h4>
@@ -427,8 +453,11 @@
   </div>
 </div>
 
+
+
+
 <!-- Container (Contact Section) -->
-<div id="contact" class="container-fluid bg-grey">
+<div id="Partie5" class="container-fluid bg-grey">
   <h2 class="text-center">CONTACT</h2>
   <div class="row">
     <div class="col-sm-5">
@@ -457,7 +486,7 @@
 </div>
 
 <!-- Image of location/map -->
-<img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%">
+<img src="/Users/anthony/depensepublic/image1.png" class="w3-image w3-greyscale-min" style="width:100%">
 
 <footer class="container-fluid text-center">
   <a href="#myPage" title="To Top">
@@ -465,6 +494,8 @@
   </a>
   <p>Bootstrap Theme Made By <a href="https://www.w3schools.com" title="Visit w3schools">www.w3schools.com</a></p>
 </footer>
+
+
 
 <script>
 $(document).ready(function(){
@@ -502,6 +533,76 @@ $(document).ready(function(){
   });
 })
 </script>
+
+<script type="text/javascript">
+
+Highcharts.chart('container', {
+
+    title: {
+        text: 'Solar Employment Growth by Sector, 2010-2016'
+    },
+
+    subtitle: {
+        text: 'Source: thesolarfoundation.com'
+    },
+
+    yAxis: {
+        title: {
+            text: 'Number of Employees'
+        }
+    },
+    legend: {
+        layout: 'vertical',
+        align: 'right',
+        verticalAlign: 'middle'
+    },
+
+    plotOptions: {
+        series: {
+            label: {
+                connectorAllowed: false
+            },
+            pointStart: 2010
+        }
+    },
+
+    series: [{
+        name: 'Installation',
+        data: [43934, 52503, 57177, 69658, 97031, 119931, 137133, 154175]
+    }, {
+        name: 'Manufacturing',
+        data: [24916, 24064, 29742, 29851, 32490, 30282, 38121, 40434]
+    }, {
+        name: 'Sales & Distribution',
+        data: [11744, 17722, 16005, 19771, 20185, 24377, 32147, 39387]
+    }, {
+        name: 'Project Development',
+        data: [null, null, 7988, 12169, 15112, 22452, 34400, 34227]
+    }, {
+        name: 'Other',
+        data: [12908, 5948, 8105, 11248, 8989, 11816, 18274, 18111]
+    }],
+
+    responsive: {
+        rules: [{
+            condition: {
+                maxWidth: 500
+            },
+            chartOptions: {
+                legend: {
+                    layout: 'horizontal',
+                    align: 'center',
+                    verticalAlign: 'bottom'
+                }
+            }
+        }]
+    }
+
+});
+</script>
+
+
+
 
 </body>
 </html>
